@@ -1,0 +1,16 @@
+- Graph Neural Networks (GNNs) are a class of neural networks designed to perform inference on data described by graphs.
+- They are particularly useful for tasks where the data is naturally represented as nodes and edges, such as social networks, molecular structures, and recommendation systems.
+- Common types of GNNs include Graph Convolutional Networks (GCNs), Graph Attention Networks (GATs), and GraphSAGE.
+- GNNs operate by aggregating information from a node's neighbors to update its representation.
+- Popular frameworks for implementing GNNs include PyTorch Geometric (PyG) and Deep Graph Library (DGL).
+- Applications of GNNs include node classification, link prediction, and graph classification tasks.
+- Recent advancements in GNNs focus on improving scalability, handling dynamic graphs, and incorporating higher-order structures.
+- Challenges in GNNs include over-smoothing, over-squashing, and the difficulty of capturing long-range dependencies in large graphs.
+
+- Their properties are permutation invariance, variable-sized input handling, and the ability to capture local graph structures.
+
+- Message passing is a fundamental mechanism in GNNs, where nodes iteratively exchange information with their neighbors to update their representations.
+- The process typically involves three steps: message computation, message aggregation, and node state update.
+- Variants of message passing include synchronous and asynchronous updates, as well as different aggregation functions such as sum, mean, and max.
+- Advanced GNN architectures may incorporate attention mechanisms, residual connections, and hierarchical pooling to enhance representation learning.
+- Training GNNs typically involves defining a loss function based on the task (e.g., cross-entropy for node classification) and using gradient-based optimization to update the model parameters.
