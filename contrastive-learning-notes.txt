@@ -1,0 +1,22 @@
+
+## Contrastive Learning Notes
+
+- Technique in deep learning falling under representation learning.
+- Better representations allow to better learn a domain, and better understand the underlying structure of the data.
+- Can be used in supervised, semi-supervised, and self-supervised learning scenarios.
+- Instance discrimination is a common approach in contrastive learning
+- Unsupervised/Semi-supervised contrastive learning uses augmentation to create positive pairs from the same instance and negative pairs from different instances.
+- The objective is to bring representations of positive pairs closer while pushing representations of negative pairs apart in the embedding space.
+- The hope is representations learned are generalizable and can be used across different tasks and domains.
+- Contrastive learning helps us to learn compact representations, and in addition the ability to learn from unlabeled data effectively.
+- Popular contrastive learning frameworks include SimCLR and CLIP.
+- Common loss functions used in contrastive learning include contrastive loss, Triplet loss, and InfoNCE loss.
+
+▬▬ Papers/Sources ▬▬▬▬▬▬▬
+Intro: https://sthalles.github.io/a-few-word...
+Survey: https://arxiv.org/ftp/arxiv/papers/20...
+Supervised Contrastive Learning: https://arxiv.org/abs/2004.11362
+Contrastive Loss:  / losses-explained-contrastive-loss  
+Triplet Loss: https://towardsdatascience.com/triple...
+NT-Xent Loss: https://medium.datadriveninvestor.com...
+SimCLR
